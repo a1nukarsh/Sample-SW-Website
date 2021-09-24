@@ -31,3 +31,13 @@ body{
     /* justify-content: flex-end; */
     width: 100%;
 }
+/* -------------------------------SECTION-1------------------------------- */
+.background-image{
+    background: rgba(0, 0, 0, 0.5) url('bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+#sec1{
+    /* height: 1000px; */
+    /* border: 2px solid red; */
+}

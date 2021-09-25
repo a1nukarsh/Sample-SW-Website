@@ -573,6 +573,12 @@ body {
         /* border: 2px solid red; */
         /* padding-bottom: 5px; */
       }
+      .cf-cntnt{
+          align-items: center;
+      }
+      .cf-cntnt button{
+          margin: auto;
+      }
       .cf-m-head{
           font-size: 36px;
           text-align: center;
@@ -584,5 +590,8 @@ body {
       }
       .cf-bx{
           margin: 12px 12px;
+      }
+      .ad-cntnt-i{
+          text-align: center;
       }
 }

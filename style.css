@@ -1,43 +1,198 @@
-body{
-    font-family: 'DM Sans', sans-serif;
+body {
+  font-family: "DM Sans", sans-serif;
 }
 
 /* -------------------------------NAVBAR------------------------------- */
-#nav{
-    height: 99px;
-    /* border: 2px solid green; */
-
+#nav {
+  height: 99px;
+  /* border: 2px solid green; */
 }
-#nav-logo{
-    /* border: 2px solid red; */
+#nav-logo {
+  /* border: 2px solid red; */
 }
-.navbar-nav{
-    /* border: 2px solid red; */
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+.navbar-nav {
+  /* border: 2px solid red; */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
-.nav-item{
-    /* border: 2px solid green; */
+.nav-item {
+  /* border: 2px solid green; */
 }
-#nav-social-icons{
-    display: flex;
-    width: 100%;
+#nav-social-icons {
+  display: flex;
+  width: 100%;
 }
-.nav-s-icons{
-    /* border: 2px solid green; */
-    display: flex;
-    /* justify-content: flex-end; */
-    width: 100%;
+.nav-s-icons {
+  /* border: 2px solid green; */
+  display: flex;
+  /* justify-content: flex-end; */
+  width: 100%;
 }
 /* -------------------------------SECTION-1------------------------------- */
-.background-image{
-    background: rgba(0, 0, 0, 0.5) url('bg.jpg');
-    background-size: cover;
-    background-blend-mode: darken;
+.background-image {
+  background: rgba(0, 0, 0, 0.5) url("bg.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
 }
-#sec1{
-    /* height: 1000px; */
+.sec1-m-div {
+  /* height: 1000px; */
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.sec1-i {
+  /* border: 2px solid red; */
+  width: 45%;
+  margin: 0px 35px;
+  height: 520px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.sec1-i-i {
+  /* border: 2px solid green; */
+  width: 55%;
+}
+.sm-head-s1 {
+  font-weight: 500;
+  color: white;
+}
+.l-head-s1 {
+  font-weight: 900;
+  color: white;
+  font-size: 50px;
+}
+.content-s1 {
+  color: white;
+  margin: 40px auto;
+}
+.btn1 {
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(242, 212, 189);
+  width: 36%;
+  margin: auto 8px;
+  transition: 0.3s linear;
+}
+.btn2 {
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.534);
+  background-color: rgba(242, 212, 189, 0);
+  width: 36%;
+  margin: auto 8px;
+  transition: 0.3s linear;
+}
+.btn1:hover {
+  background-color: white;
+}
+.btn2:hover {
+  background-color: rgb(242, 212, 189);
+  color: black;
+}
+
+/* -------------------------------SECTION-2------------------------------- */
+
+.sec2-m-div {
+  width: 100%;
+  padding: 100px;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+}
+.sec2-i {
+  width: 80%;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.core-feat {
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.core-feat-i {
+  width: 80%;
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cf-img {
+  width: 50%;
+  height: 600px;
+  overflow: hidden;
+  /* border: 2px solid red; */
+  border-radius: 15px;
+  margin: auto 25px;
+}
+.cf-img img {
+  width: 100%;
+  /* border: 2px solid red; */
+  border-radius: 15px;
+}
+.cf-cntnt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin: auto 25px
+}
+.cf-s-head{
+    color:#777777;
+    font-weight: 900;
+    font-size: large;
+    margin-top: 12px;
+}
+.cf-m-head{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1;
+    margin-top: 12px;
+}
+.cf-i-boxes{
+    display: flex;
+    margin-top: 12px;
+}
+.cf-bx{
     /* border: 2px solid red; */
+    background-color: white;
+    border-radius: 10px;
+    color: #ff8484;
+    padding: 25px;
+    font-size: 35px;
+    width: 120px;
+    height: 120px;
+    margin-right: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+.cf-bx p{
+    font-size: 15px;
+    color: black;
+    margin-top: 12px;
+}
+.app-dnld{
+    margin-top: 100px;
+}
+.ad-cntnt{
+    background-color: white;
+    display: flex;
+    /* height: 400px; */
+}
+/* -------------------------------SECTION-3------------------------------- */
